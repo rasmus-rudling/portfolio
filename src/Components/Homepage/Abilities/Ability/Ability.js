@@ -17,8 +17,8 @@ const Ability = (props) => {
     return (
         <div className={classes.Ability}>
                 <div className={classes.tooltip}>
-                    <a href={props.refLink} target="_blank">
-                        <div className={classes.textAndHeaderContainer}>
+                    <a href={props.refLink} target="_blank" >
+                        <div className={classes.textAndHeaderContainer} style={{width: props.headerContainerWidth}}>
                             <h3>{props.name}</h3>
                             <img src={props.icon} />
                         </div>
@@ -26,7 +26,7 @@ const Ability = (props) => {
 
                     <span>Läs mer om {props.name}</span>
                 </div>
-            <p>{props.text}</p>
+            <p style={{width: props.textWidth}}>{props.text}</p>
         </div>
     )
 };

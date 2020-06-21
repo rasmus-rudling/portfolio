@@ -16,6 +16,8 @@ const Abilities = (props) => (
                         icon = {ability.icon}
                         text = {ability.text}
                         refLink = {ability.refLink}
+                        headerContainerWidth = {props.headerContainerWidth}
+                        textWidth = {props.textWidth}
                     />
                 )
             })

@@ -10,7 +10,7 @@
     width: 76%;
     padding-top: 5px;
     padding-left: 10px;
-    border-left: solid 4px #FECC00;
+    border-left: solid 4px #77c2ff;
     background-color: #f0f0f0;
     height: 100%;
     border-bottom-right-radius: 5px;
@@ -35,7 +35,6 @@
 
 .textAndHeaderContainer {
     background-color: #f0f0f0;
-    width: 175px;
     height: 100%;
     text-align: center;
     border-bottom-left-radius: 5px;
