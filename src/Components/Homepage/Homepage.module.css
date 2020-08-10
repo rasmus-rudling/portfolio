@@ -1,7 +1,7 @@
 .aboutMe {
     display: flex;
     background-color: #fff;
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
     border-radius: 5px;
 }
@@ -23,7 +23,7 @@
 
 .aboutMeContainer {
     background-color: #fff;
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
     border-radius: 5px;
     padding: 20px;
@@ -32,4 +32,14 @@
 
 .aboutMeContainer p {
     margin: 0;
+}
+
+@media (min-width: 500px) {
+    .aboutMeContainer {
+        width: 60%;
+    }
+
+    .aboutMe {
+        width: 60%;
+    }
 }

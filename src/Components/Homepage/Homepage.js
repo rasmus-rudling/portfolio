@@ -50,7 +50,7 @@ const programmingSkills = [
         id: 3,
         name: 'React',
         icon: reactIcon,
-        text: "Jag har under många års tid skapat hemsidor av varierande karaktär och har därför exponerats mycket för HTML.",
+        text: "Utöver programmeringen har jag jobbat med en hel del digitala verktyg. De verktyg jag använt mig mest av listas nedan. Jag önskar inte jobba mer med dessa digitala verktyg, utan vill istället fortsätta att fokusera på programmering. Att jobba med dessa verktyg har däremot gett mig en ökad förståelse för användarbeteenden, vilket kommer till användning när jag själv skapar digitala verktyg åt andra.",
         refLink: 'https://en.wikipedia.org/wiki/React_(web_framework)'
     },
     {
@@ -141,7 +141,7 @@ const Homepage = props => {
                 </div>
             </div>
 
-            <h2>Programmeringskunskaper</h2>
+            <h2>Kodfärdigheter</h2>
             <div className = {classes.aboutMeContainer}>
                 <p>
                     Programmering är ett område som jag verkligen brinner för och vill utvecklas mer inom. Nedan listas de områden
@@ -150,8 +150,8 @@ const Homepage = props => {
 
                 <Abilities 
                     abilitiesList = {programmingSkills}
-                    headerContainerWidth = "175px"
-                    textWidth = "76%"
+                    // headerContainerWidth = "175px"
+                    // textWidth = "76%"
                 />
             </div>
 

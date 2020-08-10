@@ -26,15 +26,80 @@
         },
         "programming_skills": {
             "intro_text": {
-                "sv": 
+                "sv": "Programmering är det område som jag verkligen brinner för och vill utvecklas mer inom. Det finns inget jag tycker är roligare och mer givande än att uttrycka min egen kreativitet i kod!",
+                "en": "Programming is the field that I am truly passionate about and want to develop more in. There is nothing I find more fun and rewarding than expressing my own creativity in code!"
             },
 
             "html_text": {
-                
+                "sv": "HTML är något jag blivit exponerad för under många års tid. Första gången jag skrev HTML var i en webbutvecklingskurs på gymnasiet. På den tiden låg mycket av mitt fokus på att förstå HTML, idag är det något jag gör utan att behöva tänka.",
+                "en": "HTML is something I have been exposed to for many years. The first time I wrote HTML was in a web development course in high school. At that time much of my focus was on understanding HTML, today it is something I do without having to think."
+            },
+
+            "css_text": {
+                "sv": "Precis som med HTML har jag länge jobbat med CSS. Jag känner mig mycket bekväm med att skriva CSS och kan grunderna väldigt bra. Även om jag tycker att det är roligast att skriva JavaScriptkod finner jag stort nöje i att skapa fina hemsidor med hjälp av CSS.",
+                "en": "As with HTML, I have worked with CSS for a long time. I feel very comfortable writing CSS and know the basics very well. Although I think it's most fun to write JavaScript code, I find great pleasure in creating beautiful websites using CSS."
+            },
+            
+            "javaScript_text": {
+                "sv": "",
+                "en": ""
+            },
+
+            "react_text" : {
+                "sv": "",
+                "en": ""
+            },
+
+            "python_text" : {
+                "sv": "",
+                "en": ""
+            },
+
+            "java_text" : {
+                "sv": "",
+                "en": ""
+            },
+
+            "git_text" : {
+                "sv": "",
+                "en": ""
+            },
+
+            "gitHub_text" : {
+                "sv": "",
+                "en": ""
+            },
+
+            "firebase_text" : {
+                "sv": "",
+                "en": ""
             }
         },
         "digital_tools": {
+            "squarespace_text" : {
+                "sv": "",
+                "en": ""
+            },
 
+            "photoshop_text" : {
+                "sv": "",
+                "en": ""
+            },
+
+            "afterEffects_text" : {
+                "sv": "",
+                "en": ""
+            },
+
+            "premierePro_text" : {
+                "sv": "",
+                "en": ""
+            },
+
+            "xd_text" : {
+                "sv": "",
+                "en": ""
+            }
         },
         "volenteer_work": {
 
