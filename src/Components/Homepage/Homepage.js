@@ -134,9 +134,7 @@ const Homepage = props => {
                 <div className={classes.textContainer}>
                     <h3>Hej och välkommen till min hemsida!</h3>
                     <p>
-                        Jag heter Rasmus Rudling, är 22 år gammal och brinner för programmering i alla dess former. Jag har goda kunskaper
-                        i <em>Java</em> och <em>Python</em>. I <em>JavaScript</em> känner jag mig som mest bekväm och är också det
-                        språk jag vill fortsätta att utvecklas inom. 
+                    Jag heter Rasmus Rudling och är 22 år gammal. Här kan du läsa om de äventyr jag varit med om och vad dessa har gett mig. Ett område jag verkligen brinner för och vill utvecklas mer inom är programmering. Två andra områden jag engagerar mig inom är ledarskap och fotografering.
                     </p>
                 </div>
             </div>
@@ -166,8 +164,8 @@ const Homepage = props => {
 
                 <Abilities 
                     abilitiesList = {otherAbilities}
-                    headerContainerWidth = "175px"
-                    textWidth = "76%"
+                    // headerContainerWidth = "175px"
+                    // textWidth = "76%"
                 />
             </div>
 
@@ -182,8 +180,8 @@ const Homepage = props => {
 
                 <Abilities 
                     abilitiesList = {volunteeringExperiences}
-                    headerContainerWidth = "250px"
-                    textWidth = "66%"
+                    // headerContainerWidth = "250px"
+                    // textWidth = "66%"
                 />
             </div>
 

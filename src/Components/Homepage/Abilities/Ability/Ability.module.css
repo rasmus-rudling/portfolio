@@ -8,7 +8,7 @@
 .Ability p {
     float: left;
     width: 80%;
-    padding: 10px;
+    padding: 12px;
     border-left: solid 4px #77c2ff;
     background-color: #f0f0f0;
     border-bottom-right-radius: 5px;
@@ -17,7 +17,7 @@
 
     overflow: auto;
     display: flex;
-    min-height: 120px;
+    min-height: 140px;
 }
 
 .Ability a {
@@ -51,6 +51,7 @@
 .textAndHeaderContainer h4 {
     margin-bottom: 10px;
     margin-top: 0;
+    text-align: center;
 }
 
 .Ability img {

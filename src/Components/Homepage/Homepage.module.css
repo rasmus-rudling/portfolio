@@ -9,11 +9,12 @@
 .profilePicture {
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-    width: 169.6px;
+    height: 193.6px;
+    width: auto;
 }
 
 .textContainer {
-    margin: 0 20px;
+    margin: 0 12px;
 }
 
 .Homepage h2 {
@@ -34,12 +35,12 @@
     margin: 0;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 850px) {
     .aboutMeContainer {
-        width: 60%;
+        width: 800px;
     }
 
     .aboutMe {
-        width: 60%;
+        width: 800px;
     }
 }
