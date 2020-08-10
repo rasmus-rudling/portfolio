@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Homepage.module.css';
+import '../Common/Typography.css';
 
 import pictureAtRasmus from '../../Resources/Rasmus3.png';
 
@@ -126,7 +127,7 @@ const volunteeringExperiences = [
 const Homepage = props => {
 
     return (
-        <React.Fragment>
+        <div className={classes.Homepage}>
             <div className = {classes.aboutMe}>
                 <img src={pictureAtRasmus} className={classes.profilePicture} />
 
@@ -189,7 +190,7 @@ const Homepage = props => {
             <h2>Särskilt intressanta kurser</h2>
 
             <h2>Tidigare erfarenheter</h2>
-        </React.Fragment>
+        </div>
         
     )
 }

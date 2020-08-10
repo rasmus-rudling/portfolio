@@ -9,14 +9,14 @@
 .profilePicture {
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
-    width: 160px;
+    width: 169.6px;
 }
 
 .textContainer {
     margin: 0 20px;
 }
 
-h2 {
+.Homepage h2 {
     text-align: center;
     margin-bottom: 15px;
 }
