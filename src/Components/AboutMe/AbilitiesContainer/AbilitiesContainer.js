@@ -140,7 +140,7 @@ const volunteeringExperiences = [
 const AbilitiesContainer = (props) => {
     return (
         <div className={classes.AbilitiesContainer}>
-            <h2>Kodfärdigheter</h2>
+            <h2 id="scrollTo1">Kodfärdigheter</h2>
             <div className = {classes.aboutMeContainer}>
                 <p className={classes.abilityIntroText}>
                     Programmering är ett område som jag verkligen brinner för och vill utvecklas mer inom. Nedan listas de områden
@@ -154,7 +154,7 @@ const AbilitiesContainer = (props) => {
                 />
             </div>
 
-            <h2>Digitala verktyg</h2>
+            <h2 id="scrollTo2">Digitala verktyg</h2>
             <div className = {classes.aboutMeContainer}>
                 <p className={classes.abilityIntroText}>
                     Utöver programmeringen har jag jobbat med en hel del digitala verktyg. De verktyg jag använt mig mest av
@@ -170,7 +170,7 @@ const AbilitiesContainer = (props) => {
                 />
             </div>
 
-            <h2>Ideellt arbete</h2>
+            <h2 id="scrollTo3">Ideellt arbete</h2>
             <div className = {classes.aboutMeContainer}>
                 <p className={classes.abilityIntroText}>
                     Utöver programmeringen har jag jobbat med en hel del digitala verktyg. De verktyg jag använt mig mest av
@@ -186,9 +186,9 @@ const AbilitiesContainer = (props) => {
                 />
             </div>
 
-            <h2>Särskilt intressanta kurser</h2>
+            <h2 id="scrollTo4">Särskilt intressanta kurser</h2>
 
-            <h2>Tidigare erfarenheter</h2>
+            <h2 id="scrollTo5">Tidigare erfarenheter</h2>
         </div>
     )
 }

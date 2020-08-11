@@ -12,7 +12,16 @@ const AbilityItem = (props) => {
     lineClass = props.lastAbilityItem ? null : lineClass;
 
     return (
-        <div className={classes.AbilityItem}>
+        <div 
+            className={classes.AbilityItem}
+            onClick={() => {
+                let scrollToElement = document.querySelector("#" + props.scrollToId);
+                let yOffset = -70;
+                let y = scrollToElement.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+                window.scrollTo({top: y, behavior: 'smooth'});
+            }}
+        >
             <div className={classes.bulletAndTextContainer}>
                 <div className={bulletClass} />
                 <div className={textClass}>{props.children}</div>
