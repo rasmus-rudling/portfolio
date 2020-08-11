@@ -1,0 +1,7 @@
+.AbilitiesOverview {
+    position: fixed;
+    top: 342px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+}

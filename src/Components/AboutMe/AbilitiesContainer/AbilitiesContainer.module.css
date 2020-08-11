@@ -1,0 +1,22 @@
+.AbilitiesContainer {
+
+}
+
+.aboutMeContainer {
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px 20px 0 20px;
+    box-sizing: border-box;
+}
+
+.abilityIntroText {
+    margin-bottom: 20px !important;
+}
+
+@media (min-width: 850px) {
+    .aboutMeContainer {
+        width: 800px;
+    }
+}

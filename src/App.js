@@ -14,7 +14,7 @@ import {
 import classes from './App.module.css';
 
 // --- PECULIAR COMPONENTS ---
-import Homepage from './Components/Homepage/Homepage';
+import AboutMe from './Components/AboutMe/AboutMe';
 import Toolbar from './Components/Navigation/Toolbar/Toolbar';
 import Layout from './Components/Layout/Layout';
 // ------------------------
@@ -27,7 +27,7 @@ function App() {
         <Switch>
             <Route exact path="/">
                 <Layout>
-                    <Homepage />
+                    <AboutMe />
                 </Layout>
             </Route>
         </Switch>

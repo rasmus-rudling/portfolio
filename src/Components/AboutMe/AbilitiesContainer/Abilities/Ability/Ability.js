@@ -16,7 +16,7 @@ const Ability = (props) => {
                 <span>Läs mer om {props.name}</span>
             </div>
 
-            <p className={classes.infoText}>{props.text}</p>
+            <p>{props.text}</p>
         </div>
     )
 };

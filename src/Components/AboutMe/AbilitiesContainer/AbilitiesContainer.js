@@ -1,27 +1,26 @@
 import React from 'react';
-import classes from './Homepage.module.css';
-import '../Common/Typography.css';
-
-import pictureAtRasmus from '../../Resources/Rasmus3.png';
+import classes from './AbilitiesContainer.module.css';
 
 // --- ICONS IMPORT ---
-import htmlIcon from '../../Resources/html.png';
-import cssIcon from '../../Resources/css.png';
-import javaScriptIcon from '../../Resources/javaScript.png';
-import pythonIcon from '../../Resources/python.png';
-import javaIcon from '../../Resources/java.png';
-import reactIcon from '../../Resources/react.png';
-import gitIcon from '../../Resources/git.png';
-import githubIcon from '../../Resources/gitHub.png';
+import htmlIcon from '../../../Resources/html.png';
+import cssIcon from '../../../Resources/css.png';
+import javaScriptIcon from '../../../Resources/javaScript.png';
+import pythonIcon from '../../../Resources/python.png';
+import javaIcon from '../../../Resources/java.png';
+import reactIcon from '../../../Resources/react.png';
+import gitIcon from '../../../Resources/git.png';
+import githubIcon from '../../../Resources/gitHub.png';
+import firebaseIcon from '../../../Resources/firebase.png';
 
-import squareSpaceIcon from '../../Resources/squarespace.png';
-import photoshopIcon from '../../Resources/photoshop.png';
-import afterEffectsIcon from '../../Resources/afterEffects.png';
-import premiereProIcon from '../../Resources/premierePro.png';
+import squareSpaceIcon from '../../../Resources/squarespace.png';
+import photoshopIcon from '../../../Resources/photoshop.png';
+import afterEffectsIcon from '../../../Resources/afterEffects.png';
+import premiereProIcon from '../../../Resources/premierePro.png';
+import xdIcon from '../../../Resources/xd.png';
 
-import medieteknikIcon from '../../Resources/medieteknik.png';
-// --------------------
+import medieteknikIcon from '../../../Resources/medieteknik.png';
 
+// --- Components ---
 import Abilities from './Abilities/Abilities';
 
 const programmingSkills = [
@@ -81,6 +80,13 @@ const programmingSkills = [
         text: "Jag har under många års tid skapat hemsidor av varierande karaktär och har därför exponerats mycket för HTML.",
         refLink: 'https://en.wikipedia.org/wiki/GitHub'
     },
+    {
+        id: 8,
+        name: 'Firebase',
+        icon: firebaseIcon,
+        text: "Jag har under många års tid skapat hemsidor av varierande karaktär och har därför exponerats mycket för HTML.",
+        refLink: 'https://en.wikipedia.org/wiki/Firebase'
+    }
 ];
 
 const otherAbilities = [
@@ -112,6 +118,13 @@ const otherAbilities = [
         text: "Jag har under många års tid skapat hemsidor av varierande karaktär och har därför exponerats mycket för HTML.",
         refLink: 'https://en.wikipedia.org/wiki/Adobe_Premiere_Pro'
     }, 
+    {
+        id: 4,
+        name: 'Xd',
+        icon: xdIcon,
+        text: "Jag har under många års tid skapat hemsidor av varierande karaktär och har därför exponerats mycket för HTML.",
+        refLink: 'https://en.wikipedia.org/wiki/Adobe_XD'
+    }, 
 ];
 
 const volunteeringExperiences = [
@@ -124,24 +137,12 @@ const volunteeringExperiences = [
     },
 ];
 
-const Homepage = props => {
-
+const AbilitiesContainer = (props) => {
     return (
-        <div className={classes.Homepage}>
-            <div className = {classes.aboutMe}>
-                <img src={pictureAtRasmus} className={classes.profilePicture} />
-
-                <div className={classes.textContainer}>
-                    <h3>Hej och välkommen till min hemsida!</h3>
-                    <p>
-                    Jag heter Rasmus Rudling och är 22 år gammal. Här kan du läsa om de äventyr jag varit med om och vad dessa har gett mig. Ett område jag verkligen brinner för och vill utvecklas mer inom är programmering. Två andra områden jag engagerar mig inom är ledarskap och fotografering.
-                    </p>
-                </div>
-            </div>
-
+        <div className={classes.AbilitiesContainer}>
             <h2>Kodfärdigheter</h2>
             <div className = {classes.aboutMeContainer}>
-                <p>
+                <p className={classes.abilityIntroText}>
                     Programmering är ett område som jag verkligen brinner för och vill utvecklas mer inom. Nedan listas de områden
                     jag jobbat mest med.
                 </p>
@@ -155,7 +156,7 @@ const Homepage = props => {
 
             <h2>Digitala verktyg</h2>
             <div className = {classes.aboutMeContainer}>
-                <p>
+                <p className={classes.abilityIntroText}>
                     Utöver programmeringen har jag jobbat med en hel del digitala verktyg. De verktyg jag använt mig mest av
                     listas nedan. Jag önskar inte jobba mer med dessa digitala verktyg, utan vill istället fortsätta att 
                     fokusera på programmering. Att jobba med dessa verktyg har däremot gett mig en ökad förståelse 
@@ -171,7 +172,7 @@ const Homepage = props => {
 
             <h2>Ideellt arbete</h2>
             <div className = {classes.aboutMeContainer}>
-                <p>
+                <p className={classes.abilityIntroText}>
                     Utöver programmeringen har jag jobbat med en hel del digitala verktyg. De verktyg jag använt mig mest av
                     listas nedan. Jag önskar inte jobba mer med dessa digitala verktyg, utan vill istället fortsätta att 
                     fokusera på programmering. Att jobba med dessa verktyg har däremot gett mig en ökad förståelse 
@@ -189,8 +190,7 @@ const Homepage = props => {
 
             <h2>Tidigare erfarenheter</h2>
         </div>
-        
     )
 }
 
-export default Homepage;
+export default AbilitiesContainer;

@@ -1,0 +1,73 @@
+.AbilityItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2px;
+    transition: .2s;
+    height: 54px;
+}
+
+.AbilityItem:hover {
+    cursor: pointer;
+    
+}
+
+.AbilityItem:hover div {
+    /* border-color: #77c2ff; */
+    color: #77c2ff;
+}
+
+/* .AbilityItem:hover .normalLine {
+    background-color: #77c2ff;
+} */
+
+.bulletAndTextContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.activeBullet {
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    border: 5px solid #77c2ff;
+    margin-right: 10px;
+    z-index: 10;
+}
+
+.normalBullet {
+    width: 16px;
+    height: 16px;
+    border-radius: 20px;
+    border: 5px solid #2d2d2d;
+    margin-right: 10px;
+    z-index: 10;
+}
+
+.activeLine {
+    width: 5px;
+    height: 30px;
+    background-color: #77c2ff;
+    margin-left: 11px;
+    margin-top: -2px;
+    z-index: 9;
+}
+
+.normalLine {
+    width: 5px;
+    height: 30px;
+    background-color: #2d2d2d;
+    margin-left: 11px;
+    margin-top: -2px;
+    z-index: 9;
+}
+
+.activeText {
+    color: #77c2ff;
+    font-weight: 600;
+}
+
+.normalText {
+    color: #2d2d2d;
+    font-weight: 300;
+}

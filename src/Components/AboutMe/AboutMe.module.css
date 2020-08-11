@@ -22,15 +22,6 @@
     margin-bottom: 15px;
 }
 
-.aboutMeContainer {
-    background-color: #fff;
-    width: 90%;
-    margin: 0 auto;
-    border-radius: 5px;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
 .aboutMeContainer p {
     margin: 0;
 }
