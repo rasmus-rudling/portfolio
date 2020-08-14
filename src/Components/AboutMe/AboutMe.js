@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './AboutMe.module.css';
 import '../Common/Typography.css';
 
-import pictureAtRasmus from '../../Resources/Rasmus3.png';
+import pictureAtRasmus from '../../Resources/rasmus2.png';
 
 // --- Components ---
 import AbilitiesOverview from './AbilitiesOverview/AbilitiesOverview';

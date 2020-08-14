@@ -4,12 +4,22 @@ import classes from './AbilityItem.module.css';
 // let abilityActive = true;
 
 const AbilityItem = (props) => {
+    let bulletClass, lineClass, textClass;
+    let activeAbility = props.scrollMin <= props.yScroll && props.yScroll <= props.scrollMax;
 
-    let bulletClass = props.active ? classes.activeBullet : classes.normalBullet;
-    let lineClass = props.active ? classes.activeLine : classes.normalLine;
-    let textClass = props.active ? classes.activeText : classes.normalText;
+    if (activeAbility) {
+        bulletClass = classes.activeBullet;
+        lineClass = classes.activeLine;
+        textClass = classes.activeText;
+    } else {
+        bulletClass = classes.normalBullet;
+        lineClass = classes.normalLine;
+        textClass = classes.normalText;
+    }
+    
 
     lineClass = props.lastAbilityItem ? null : lineClass;
+    
 
     return (
         <div 

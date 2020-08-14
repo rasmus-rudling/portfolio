@@ -33,6 +33,7 @@
     border: 5px solid #77c2ff;
     margin-right: 10px;
     z-index: 10;
+    transition: .2s;
 }
 
 .normalBullet {
@@ -42,6 +43,7 @@
     border: 5px solid #2d2d2d;
     margin-right: 10px;
     z-index: 10;
+    transition: .2s;
 }
 
 .activeLine {
@@ -51,6 +53,7 @@
     margin-left: 11px;
     margin-top: -2px;
     z-index: 9;
+    transition: .2s;
 }
 
 .normalLine {
@@ -60,14 +63,17 @@
     margin-left: 11px;
     margin-top: -2px;
     z-index: 9;
+    transition: .2s;
 }
 
 .activeText {
     color: #77c2ff;
     font-weight: 600;
+    transition: .2s;
 }
 
 .normalText {
     color: #2d2d2d;
     font-weight: 300;
+    transition: .2s;
 }
