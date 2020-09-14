@@ -98,3 +98,12 @@
     display: block;
     opacity: 100%;
 }
+
+.readMore {
+
+}
+
+.readMore img {
+    height: 12px;
+    padding-right: 5px;
+}

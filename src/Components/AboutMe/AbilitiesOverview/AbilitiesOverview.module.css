@@ -1,7 +1,6 @@
 .AbilitiesOverview {
     position: fixed;
-    top: 342px;
-    left: 120px;
+    left: 80px;
     display: flex;
     flex-direction: column;
 }

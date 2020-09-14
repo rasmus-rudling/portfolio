@@ -57,8 +57,21 @@ const AbilitiesOverview = (props) => {
         });
     }, []);
 
+    let overViewTopPosition;
+    const topLimit = 250;
+
+    if (yScroll < topLimit) {
+        overViewTopPosition = 342 - yScroll + "px"
+    } else {
+        overViewTopPosition = 342 - topLimit + "px"
+    }
+
     return (
-        <div className={classes.AbilitiesOverview}>
+        <div 
+            className={classes.AbilitiesOverview}
+            style = {{
+                top: overViewTopPosition
+            }}>
             {
                 abilityItems.map(abilityObject => {
                     return (

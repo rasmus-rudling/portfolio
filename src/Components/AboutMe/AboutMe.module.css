@@ -12,7 +12,7 @@
     border-top-left-radius: 5px;
     height: 193.6px;
     width: auto;
-    filter: blur(20px);
+    /* filter: blur(20px); */
 }
 
 .textContainer {

@@ -14,6 +14,7 @@
 .AbilityItem:hover div {
     /* border-color: #77c2ff; */
     color: #77c2ff;
+    /* transform: scale(); */
 }
 
 /* .AbilityItem:hover .normalLine {
@@ -30,7 +31,8 @@
     width: 16px;
     height: 16px;
     border-radius: 20px;
-    border: 5px solid #77c2ff;
+    border: 5px solid #2d2d2d;
+    background-color: #2d2d2d;
     margin-right: 10px;
     z-index: 10;
     transition: .2s;
@@ -49,7 +51,7 @@
 .activeLine {
     width: 5px;
     height: 30px;
-    background-color: #77c2ff;
+    background-color: #2d2d2d;
     margin-left: 11px;
     margin-top: -2px;
     z-index: 9;
@@ -67,7 +69,7 @@
 }
 
 .activeText {
-    color: #77c2ff;
+    color: #2d2d2d;
     font-weight: 600;
     transition: .2s;
 }

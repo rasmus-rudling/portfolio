@@ -2,6 +2,8 @@ import React from 'react';
 
 import classes from './Ability.module.css';
 
+import wikiLogo from '../../../../../Resources/wikipedia.png';
+
 const Ability = (props) => {
     return (
         <div className={classes.Ability}>
@@ -13,7 +15,10 @@ const Ability = (props) => {
                     </div>
                 </a>
 
-                <span>Läs mer om {props.name}</span>
+                <span className={classes.readMore}>
+                    <img src={wikiLogo} />
+                    Läs mer om {props.name}
+                </span>
             </div>
 
             <p>{props.text}</p>
